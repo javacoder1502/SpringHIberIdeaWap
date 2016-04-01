@@ -5,10 +5,10 @@
 
 	<section class="col-md-4 col-xs-4">
 		<section class="left-pre">
-			<a
-				href="<c:url value= "/download?content_name=${contentDesc.content_prv}&cat_type=${content_type}" />"
-				style="box-shadow: none;"> <img
-				src="<c:url value="/resources/img-wap/9.jpg"  />" />
+			<a href="<c:url value= "/download?content_name=${contentDesc.content_prv}&cat_type=${content_type}" />"
+				style="box-shadow: none;"> 
+		
+				<img src="<c:url value="../m4u/CMS/Preview/${contentDesc.content_prv}" />" />
 
 			</a>
 		</section>

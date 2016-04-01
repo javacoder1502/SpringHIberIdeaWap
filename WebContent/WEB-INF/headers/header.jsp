@@ -92,13 +92,13 @@
 
 
 
-				<div style="padding: 10px;">
+				<%-- <div style="padding: 10px;">
 					<input type="text" hidden="true" id="content_type"
 						value="${content_type}">
                       <form:select path="lang_choose_option">
 						<form:options items="${lang_choose_option}" />
 					</form:select>
-                    </div>
+                    </div> --%>
 
 
 			</section>

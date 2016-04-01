@@ -1,6 +1,9 @@
 <%@ page pageEncoding="utf-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+
+
 <!doctype html>
 <html>
 <head>
@@ -37,7 +40,8 @@
 									<a
 										href="<c:url value= "/download?content_name=${contentDesc.content_prv}&cat_type=${content_type}" />"
 										style="box-shadow: none;"> 
-										<img  src="<c:url value="/resources/img-wap/9.jpg"  />" />
+										
+										 <img src="<c:url value="../m4u/CMS/Preview/${contentDesc.content_prv}" />"/> 
 
 									</a>
 								</section>
@@ -51,8 +55,12 @@
 				</section>
 
 			</section>
+		
+			
+			
 			<section class="footer">
-				<p>copyright@2016</p>
+			<spring:message code="Copyright@2016" />
+				
 			</section>
 		</section>
 	</section>
