@@ -40,10 +40,10 @@ public class ContentController {
 		
 		
 
-		 LinkedHashMap<String, String> lang_choose_option = new LinkedHashMap<String, String>();
+		/* LinkedHashMap<String, String> lang_choose_option = new LinkedHashMap<String, String>();
 		 lang_choose_option.put("en", "English");
 		 lang_choose_option.put("hi", "Hindi");
-		 modelAndView.addObject("lang_choose_option",lang_choose_option);
+		 modelAndView.addObject("lang_choose_option",lang_choose_option);*/
 		 modelAndView.setViewName("content");
 		
 		
@@ -60,10 +60,10 @@ public class ContentController {
 		modelAndView.addObject("content_type","Wallpaper");
 		
 		
-		 LinkedHashMap<String, String> lang_choose_option = new LinkedHashMap<String, String>();
+		/* LinkedHashMap<String, String> lang_choose_option = new LinkedHashMap<String, String>();
 		 lang_choose_option.put("en", "English");
 		 lang_choose_option.put("hi", "Hindi");
-		 modelAndView.addObject("lang_choose_option",lang_choose_option);
+		 modelAndView.addObject("lang_choose_option",lang_choose_option);*/
 		 
 		 
 		modelAndView.setViewName("content");
@@ -78,10 +78,10 @@ public class ContentController {
 		modelAndView.addObject("contentCat",gc.getCatList("video"));
 		modelAndView.addObject("content_type","Video");
 		
-		LinkedHashMap<String, String> lang_choose_option = new LinkedHashMap<String, String>();
+		/*LinkedHashMap<String, String> lang_choose_option = new LinkedHashMap<String, String>();
 		 lang_choose_option.put("en", "English");
 		 lang_choose_option.put("hi", "Hindi");
-		 modelAndView.addObject("lang_choose_option",lang_choose_option);
+		 modelAndView.addObject("lang_choose_option",lang_choose_option);*/
 		
 		 
 		 
@@ -98,10 +98,10 @@ public class ContentController {
 		
 		
 		
-		LinkedHashMap<String, String> lang_choose_option = new LinkedHashMap<String, String>();
+		/*LinkedHashMap<String, String> lang_choose_option = new LinkedHashMap<String, String>();
 		 lang_choose_option.put("en", "English");
 		 lang_choose_option.put("hi", "Hindi");
-		 modelAndView.addObject("lang_choose_option",lang_choose_option);
+		 modelAndView.addObject("lang_choose_option",lang_choose_option);*/
 		 
 		 
 		modelAndView.setViewName("content");

@@ -29,6 +29,7 @@
     <mapping class="ideawapvns.content.table.Scrsaver"/>
     <mapping class="ideawapvns.content.table.Video"/>
     <mapping class="ideawapvns.content.table.Wallpaper"/>
+    <mapping class="ideawapvns.content.table.Waphit"/>
     
    </session-factory>
 </hibernate-configuration>
